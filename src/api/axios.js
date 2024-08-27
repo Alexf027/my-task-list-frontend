@@ -6,7 +6,7 @@ const instancia1 = axios.create({
 });
 
 const instancia2 = axios.create({
-    baseURL: 'https://my-task-list-frontend.vercel.app/', 
+    baseURL: 'https://my-task-list-frontend.vercel.app',  
     withCredentials: true
 });
 
